@@ -26,13 +26,11 @@ class Hwk01 {
 
 		keyboard = new BufferedReader(new InputStreamReader(System.in));
 
-		System.out
-				.print("Please enter the name of a company (without spaces): ");
+		System.out.print("Please enter the name of a company (without spaces): ");
 		System.out.flush(); /* Make sure the line is printed immediately. */
 		inputLine = keyboard.readLine();
 
-		Runtime.getRuntime().exec(
-				"rundll32 url.dll,FileProtocolHandler http://www." + inputLine
+		Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler http://www." + inputLine
 						+ ".com");
 
 		URL u;
