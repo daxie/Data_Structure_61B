@@ -89,6 +89,5 @@ it and submit again.  You will have to resubmit both files, even if you only
 change one.  You may submit as often as you like.  Only the last version you
 submit before the deadline will be graded.
 
-This will be the standard procedure for submitting future homeworks and
-projects as well.
+This will be the standard procedure for submitting future homeworks and projects as well.
 ==================
